@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#2d3446">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <Button
+            android:id="@+id/btrnProc"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="%"
+            android:textColor="#D1D1D1"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/btrnSkobka"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="("
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btrnSkopka"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text=")"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btrnDel"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="/"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btrnClear"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="C"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btrn7"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="7"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btrn8"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="8"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btrn9"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="9"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btrnUmnost"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="X"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrnA"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="A"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrn6"
+            style="@style/Widget.MaterialComponents.Button"
+
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="6"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrn5"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="5"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrn4"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="4"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrnPlus"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="+"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrnMin"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="-"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrn1"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="1"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrn2"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="2"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrn3"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="3"
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrnravno"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e83763"
+            android:fontFamily="@font/allerta"
+            android:text="="
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bttrnPoint"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2D3446"
+            android:fontFamily="@font/allerta"
+            android:text="."
+            android:textColor="#D1D1D1"
+            android:textSize="35dp" />
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="402dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta"
+            android:text="100 + 23"
+            android:textColor="#F8F8F8"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta"
+            android:text="123"
+            android:textColor="#36a7f5"
+            android:textSize="70dp"
+            android:translationX="275dp"
+            android:translationY="260dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
